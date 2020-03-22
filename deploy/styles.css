@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("assets/fonts/RobotoCondensed-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("assets/fonts/RobotoCondensed-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("assets/fonts/RobotoCondensed-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+input:focus, textarea:focus {
+    outline: none;   
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #F3F3F3;
+}
+
+.is_hidden, .is-hidden {
+  display: none !important;
+}
+
+.is-invisible {
+  visibility: hidden;
+}

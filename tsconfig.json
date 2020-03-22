@@ -1,0 +1,59 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "incremental": true,
+        "baseUrl": "./",
+        "rootDirs": [
+            "./src",
+            "./montana-api/src"
+        ],
+        "paths": {
+            "@montana-api/*": [
+                "./montana-api/src/*"
+            ],
+            "@app/*": [
+                "./src/*"
+            ],
+        },
+        "checkJs": false,
+        "allowUnreachableCode": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "jsx": "react",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "skipLibCheck": true,
+        "removeComments": true,
+        "strictNullChecks": false,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": [
+            "es6",
+            "dom",
+            "es7"
+        ],
+        "sourceMap": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "lib": [
+        "dom",
+        "es6",
+        "dom",
+        "es2016"
+    ],
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./build",
+        "./node_modules"
+    ]
+
+}
