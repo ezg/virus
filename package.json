@@ -17,7 +17,7 @@
   "dependencies": {
     "@types/react-measure": "^2.0.5",
     "brace": "^0.11.1",
-    "d3": "^5.15.0",
+    "d3": "^7.6.1",
     "d3-dsv": "^1.2.0",
     "d3-format": "^1.4.3",
     "downloadjs": "^1.4.7",
